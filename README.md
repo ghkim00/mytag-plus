@@ -3,6 +3,9 @@
 > **결제 전후 데이터를 기반으로 최적 혜택과 소비관리 액션을 추천하는 개인화 결제 플랫폼**
 > BC카드 페이북·마이태그 고도화 제안형 MVP · 비씨카드 신입 사업기획/마케팅 직무 포트폴리오용
 
+🌐 **Live Demo**: https://mytag-plus.vercel.app
+📦 **Source**: https://github.com/ghkim00/mytag-plus
+
 ---
 
 ## 프로젝트 개요
