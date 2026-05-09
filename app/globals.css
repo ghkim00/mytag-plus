@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    background-color: #F7F9FC;
+    color: #0F1726;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, sans-serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer components {
+  .num {
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-variant-numeric: tabular-nums;
+  }
+  .glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: saturate(140%) blur(8px);
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium;
+  }
+  .section-title {
+    @apply text-[15px] font-semibold text-ink-900;
+  }
+}
+
+/* Pretendard via CDN */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
